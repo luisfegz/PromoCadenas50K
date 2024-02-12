@@ -10,21 +10,21 @@ export default function Home() {
         <MaxWidthWrapper className="mb-12 mt-28 sm:mt-40 flex flex-col items-center justify-center text-center">
           <div className="mx-auto mb-4 flex max-w-fit items-center justify-center space-x-2 overflow-hidden rounded-full border-gray-200 bg-white px-7 py-2 shadow-md backdrop-blur transition-all hover:border-gray-300 hover:bg-white/50">
             <p className="text-sm font-semibold text-gray-700">
-              NextPDF is now public!
+              ¡Tu promo de cadenas y dije por solo 50K!
             </p>
           </div>
           <h1 className='max-w-4xl text-5xl font-bold md:text-6x1 lg:text-7xl'>
-            Chat with your <span className="text-blue-600">documents</span> in seconds.
+            Compra la mejor promoción de <span className="text-blue-600">cadena + dije</span> en segundos.
           </h1>
-          <p className='mt-5 max-w-prose text-zinc-700 sm:text-lg'>NextPDF allows you to have conversations with any PDF document.
-            Simplify upload your file and start asking questions right away.
+          <p className='mt-5 max-w-prose text-zinc-700 sm:text-lg'>Tu Promo50K te permitira lucir los mejores accesorios para tu Outfit.
+            Simplemente ve al estilo de la moda a bajos precios.
           </p>
 
           <Link className={buttonVariants({
             size: 'lg',
             className: "mt-5"
-          })} href='/dashboard' target='_blank'>
-            Get started <ArrowRight className='ml-2 h-5 w-5'/>
+          })} href="https://api.whatsapp.com/send?phone=3023639624&text=Hola%20quiero%20mi%20Promocion50k%20Cadena%20y%20Dije,%20Deseo%20ver%20el%20catalogo%20completo%20por%20favor" target='_blank'>
+            ¡Obten tu Promo50K!<ArrowRight className='ml-2 h-5 w-5'/>
           </Link>
         </MaxWidthWrapper>
         {/* Value proposition section */}
@@ -75,10 +75,10 @@ export default function Home() {
           <div className='mb-12 px-6 lg:px-8'>
               <div className='mx-auto max-w-2xl sm:text-center'>
                 <h2 className='mt-2 font-bold text-4xl text-gray-900 sm:text-5xl'>
-                  Start chatting in minutes
+                  Empieza a chatear con nosotros para tu Promo50k: Cadena + Dije
                 </h2>
                 <p className='mt-4 text-lg text-gray-600'>
-                  Chatting to your PDF files has never been easier than with NextPDF.
+                  Lo mejor del estilo de la moda al mejor precio.
                 </p>
               </div>
           </div>
@@ -88,15 +88,15 @@ export default function Home() {
             <li className="md:flex-1">
               <div className='flex flex-col space-y-2 border-1-4 border-zinc-300 py-2 pl-4 md:border-l-0 md:border-t-2 md:pb-0 md:pl-0 md:pt-4'>
                 <span className='text-sm font-medium text-blue-600'>
-                  Step 1
+                  Paso 1
                 </span>
                 <span className="text-xl font-semibold">
-                  Sign up for an account
+                  Da click en '¡Obten tu Promo50K!'
                 </span>
                 <span className='mt-2 text-zinc-700'>
-                  Either starting out with a free plan or choose our {' '}
-                  <Link href='/pricing' className='text-blue-700 underline underline-offset-2 '>
-                    pro plan
+                  También puedes adquirir tu promoción en {' '}
+                  <Link href="https://api.whatsapp.com/send?phone=3023639624&text=Hola%20quiero%20mi%20Promocion50k%20Cadena%20y%20Dije,%20Deseo%20ver%20el%20catalogo%20completo%20por%20favor" className='text-blue-700 underline underline-offset-2 '>
+                    este link
                   </Link>
                   .
                 </span>
@@ -105,27 +105,26 @@ export default function Home() {
             <li className="md:flex-1">
               <div className='flex flex-col space-y-2 border-1-4 border-zinc-300 py-2 pl-4 md:border-l-0 md:border-t-2 md:pb-0 md:pl-0 md:pt-4'>
                 <span className='text-sm font-medium text-blue-600'>
-                  Step 2
+                  Paso 2
                 </span>
                 <span className="text-xl font-semibold">
-                  Upload your PDF file
+                  Selecciona tu cadena y dije.
                 </span>
                 <span className='mt-2 text-zinc-700'>
-                  We&apos;ll process your file and make it ready for you to chat with.
+                  Te asesoraremos con todo nuestro catálogo de cadenas y dijes.
                 </span>
               </div>
             </li>
             <li className="md:flex-1">
               <div className='flex flex-col space-y-2 border-1-4 border-zinc-300 py-2 pl-4 md:border-l-0 md:border-t-2 md:pb-0 md:pl-0 md:pt-4'>
                 <span className='text-sm font-medium text-blue-600'>
-                  Step 3
+                  Paso 3
                 </span>
                 <span className="text-xl font-semibold">
-                  Start asking questions
+                  Envíanos tu dirección y contacto.
                 </span>
                 <span className='mt-2 text-zinc-700'>
-                  It&apos;s that simple. Try out NextPDF today - 
-                  it really takes less than a minute.
+                  Para facilitar nuestro proceso de entrega de pedidos en todo el país.
                 </span>
               </div>
             </li>
