@@ -48,8 +48,8 @@ export default function Home() {
                     <Image 
                       src='/dashboard-preview.jpg'
                       alt='product preview'
-                      width={1364} 
-                      height={866}
+                      width={1200} 
+                      height={1149}
                       quality={100}
                       className='rounded-md bg-white p-2 sm:p-8 md:p-20 shadow-2xl ring-1 ring-gray-900/10'  
                     />
@@ -136,8 +136,8 @@ export default function Home() {
                   <Image 
                     src='/file-upload-preview.jpg'
                     alt='uploading preview'
-                    width={1419} 
-                    height={732}
+                    width={900} 
+                    height={1294}
                     quality={100}
                     className='rounded-md bg-white p-2 sm:p-8 md:p-20 shadow-2xl ring-1 ring-gray-900/10'  
                   />
