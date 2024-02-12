@@ -91,7 +91,7 @@ export default function Home() {
                   Paso 1
                 </span>
                 <span className="text-xl font-semibold">
-                  Da click en '¡Obten tu Promo50K!'
+                  Da click en ¡Obten tu Promo50K!
                 </span>
                 <span className='mt-2 text-zinc-700'>
                   También puedes adquirir tu promoción en {' '}
