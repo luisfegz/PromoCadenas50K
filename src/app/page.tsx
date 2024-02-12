@@ -14,7 +14,7 @@ export default function Home() {
             </p>
           </div>
           <h1 className='max-w-4xl text-5xl font-bold md:text-6x1 lg:text-7xl'>
-            Compra la mejor promoción de <span className="text-blue-600">cadena + dije</span> en segundos.
+            Compra la mejor promo de <span className="text-blue-600">cadena + dije</span> en segundos.
           </h1>
           <p className='mt-5 max-w-prose text-zinc-700 sm:text-lg'>Tu Promo50K te permitira lucir los mejores accesorios para tu Outfit.
             Simplemente ve al estilo de la moda a bajos precios.
